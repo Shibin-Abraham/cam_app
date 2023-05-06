@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Landing page</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ <div class="preloader">
+ <img src="images/loader.gif" alt="images/lo.gif">
+</div>
+ <!------ header start -------->
+ <header class="header">
+ <nav>
+  <div class="logo">
+   <a href="#"><img src="images/logo.png" alt=""></a>
+  </div>
+  <div class="navbar">
+   <img src="images/menu.png" alt="images/">
+   <ul class="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#options"> Options</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#footer"> Developer Contact</a></li>
+   </ul>
+  </div>
+ </nav>
+</header>
+ <!------ header end  -------->
+
+   <div class="setting">
+    <div class="menu">
+     <ul>
+      <li><img src="images/close.png" alt="close-icon"><h1>Settings</h1>
+      </li>
+      <li><h3>Video Settings</h3><span>camera on/off</span>
+      <div class="toggle">
+      <div class="toggle-btn"></div>
+     </div>
+      </li>
+      <li><h3>Audio Settings</h3><span>mic on/off</span>
+      <div class="toggle-mic">
+       <div class="toggle-btn"></div>
+      </div>
+      </li>
+      <li><h3>Flash Light</h3><span> Enable flash light when back camera on</span>
+      <div class="toggle-flash">
+       <div class="toggle-btn"></div>
+      </div>
+      </li>
+      <li id="clear-timer"><h3> Clear Timer</h3><span> clear all timer data</span></li>
+      <li><h3> Vibration</h3><span> vibrate when camera on/off</span>
+      <div class="toggle-vibrate">
+       <div class="toggle-btn"></div>
+      </div>
+      </li>
+      <li id="clear-all"><h3> Reset All</h3><span> clear all app data </span></li>
+      <li><a href="https://www.linkedin.com/in/shibin-abraham"><h3> Contact</h3><span> Developer contact</span></a></li>
+     </ul>
+    </div>
+   </div>
+   <!--------- template ------------->
+   <div class="template">
+    
+     <img id="back-arrow2" src="images/left-arrow.png" alt="back-arrow">
+    <h3>Template</h3>
+    
+    
+    <div class="box1">
+     <img src="images/template_black.png" alt="">
+    </div>
+    <div class="box2">
+   <img src="images/template_pic.png" alt="">
+    </div>
+   
+   </div>
+   <!----------- end --------------->
+    <!------------ overview pop-up--------->
+   <div class="overview">
+    <div class="box">
+     <img src="images/overview_img.png" alt="">
+     <button> CLOSE</button>
+    </div>
+   </div>
+   <!---------------- end ----------------->
+   <!------ hero-section start -------->
+<main class="main">
+<div class="hero-section">
+ <div class="hero-img">
+  <img src="images/hero.gif" alt="images/oldcam.gif">
+ </div>
+  <div class="hero-info">
+    <span>The best way of</span>
+   <span id="main">keeping a secret is to</span><span id="sub-main">pretend there isn't one</span>
+   </div>
+</div>
+  <!------ hero-section end -------->
+  
+   
+  
+  <div class="cam">
+   <h4> SELECT CAMERA</h4>
+  <div class="camera">
+   <div class="img1">
+     <img id="rear" src="images/rear-cam.png" alt="">
+   </div>
+   <div class="img2">
+    <img id="front" src="images/front-cam.png" alt="">
+   </div>
+  </div>
+  <button id="okBtn">OK</button>
+  </div>
+  
+  
+  
+  <!---------- set time ------------->
+  <div class="time">
+   <img id="back-arrow" src="images/left-arrow.png" alt="back-arrow">
+   <span> SET TIME</span>
+   <div class="settime-start">
+    <h6>START</h6>
+     <div class="column">
+      <select>
+       <option value="Hour" selected disabled hidden>Hour</option>
+      </select>
+     </div>
+     <div class="column">
+      <select>
+       <option value="Minute" selected disabled hidden>Minute</option>
+      </select>
+     </div>
+     <div class="column">
+      <select>
+       <option value="AM/PM" selected disabled hidden>AM/PM</option>
+      </select>
+     </div>
+    
+   </div>
+    
+   <div class="settime-stop">
+    <h6>STOP</h6>
+    <div class="column">
+     <select>
+      <option value="Hour" selected disabled hidden>Hour</option>
+     </select>
+    </div>
+    <div class="column">
+     <select>
+      <option value="Minute" selected disabled hidden>Minute</option>
+     </select>
+    </div>
+    <div class="column">
+     <select>
+      <option value="AM/PM" selected disabled hidden>AM/PM</option>
+     </select>
+    </div>
+   
+   </div>
+   
+   <button id="setBtn">SET TIME</button>
+  </div>
+  
+   <!------categories start------>
+   
+<div id="options" class="categories">
+   <h3> EXPLORE NOW</h3>
+   <div class="category">
+   
+    <div id="start-record" class="cat-left">
+     <img src="images/cam.png" alt="">
+     <h5> Record</h5>
+    </div>
+    <div id="setTime" class="cat-middle">
+     <img src="images/time.png" alt="">
+     <h5> Set Time</h5>
+    </div>
+    <div class="cat-right" id="template">
+     <img src="images/template.png" alt="">
+     <h5> Template</h5>
+    </div>
+   </div>
+   
+   <div class="category">
+    <div id="cam-change" class="cat-left">
+     <img src="images/change.png" alt="">
+     <h5> Change</h5>
+    </div>
+   
+    <div class="cat-middle" id="overview">
+     <img src="images/overview.png" alt="">
+     <h5> Overview</h5>
+    </div>
+    <div class="cat-right" id="settings">
+     <img src="images/setting.png" alt="">
+     <h5> settings</h5>
+    </div>
+   </div>
+</div>
+ <!-------- categories end -------->
+ <div id="about" class="container">
+   <h3> ABOUT</h3>
+  <div class="about">
+   <h5>
+    Record videos easily and record continuously when the app is in the background.
+    It is a camera app that helps you easily record videos with one tap with the option to enable / disable camera shutter sounds. Useful features include continuous recording while the app is in the background.
+   </h5><br>
+   <h5 id="cm-features">[ Coming Features]</h5>
+   <h5><br>
+   + Volume buttons can be used to start or stop recording. (Press volume up button three times within two seconds to start. Press volume low button three times within two seconds to stop)<br>
+   + Power button can be used to start or stop recording. (Press the power button three times in two seconds to start or stop recording)<br>
+   + Shake the phone to start or stop video recording.<br>
+   + [Machine learning] When the device's camera detects a human face, it will start video recording automatically.<br>
+   + In app voice command to start video recording.<br>
+   + Support Google Assistant to start video recording (e.g. "start video recording using Background Video Recorder application").<br>
+   + Gesture support on the preview screen (pinch, tab, horizontal scrolling and vertical scrolling) for quick settings (camera zoom, camera autofocus, and camera exposure correction).<br>
+   + Save recorded video files directly to Google Drive and Dropbox.</h5>
+  </div>
+ </div>
+</main>
+
+<!--------- footer start ----------->
+
+<footer class="footerTag">
+ <div id="footer" class="footer">
+  <div class="developer-contact">
+   <a href="#" style="color: #101658;font-weight: 600";> DEVELOPER CONTACT </a>
+   <a href="" style="color: rgba(130, 131, 145, .6);font-size: 13px;">If you want to connect with developer click below icons</a>
+   <div class="icon">
+    <a href="#"><img src="images/github.png"></a>
+    <a href="https://www.linkedin.com/in/shibin-abraham"><img src="images/linked.png"></a> 
+    </div>
+  </div>
+ </div>
+</footer>
+<!--------- footer start ----------->
+<script type="module" src="./js/index.js"></script>
+<script>
+ let preLoader = document.querySelector(".preloader")
+ 
+ let BodyHeader = document.querySelector(".header")
+ let BodyMain = document.querySelector(".main")
+ let BodyFooter = document.querySelector(".footerTag")
+ BodyHeader.classList.add("blur")
+ BodyMain.classList.add("blur")
+ BodyFooter.classList.add("blur")
+ window.addEventListener("load",()=>{
+  preLoader.style.display = "none"
+  BodyHeader.classList.remove("blur")
+  BodyMain.classList.remove("blur")
+  BodyFooter.classList.remove("blur")
+ })
+</script>
+</body>
+
+</html>
