@@ -29,13 +29,13 @@ li{
  justify-content: center;
 }
 .preloader img{
- width: 210px;
- height: 157px;
+ width: 180px;
+ height: 134px;
 }
 header{
  position: fixed;
  z-index: 4;
- width: 383px;
+ min-width: 383px;
  margin-right: 5px;
  background: #070928;
  padding: 3px 20px;
