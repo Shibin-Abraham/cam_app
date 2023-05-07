@@ -201,8 +201,8 @@ constraints = {
 }
 }
 document.getElementById("camera").ondblclick = function() {
- localStorage.getItem("vibrate")=="ON"? 
- navigator.vibrate([200]): console.log("vibrater is off");
+ localStorage.getItem("vibrate")=="ON"? navigator.vibrate([200]): console.log("vibrater is off");
+
 navigator.mediaDevices.getUserMedia(constraints).then(stream => {
  //document.getElementById("video").srcObject = stream;
  // var options = {mimeType: 'video/webm; codecs=vp9'};
